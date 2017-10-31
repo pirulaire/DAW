@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+
+<cadastre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="act9.xsd">
+	<habitatge ref="142587">
+		<localitzacio>
+			<carrer>Del morro</carrer>
+			<numero>24</numero>
+			<planta_porta>2 3</planta_porta>
+		</localitzacio>
+		<habitants>
+			<persona>
+				<nif>52147852H</nif>
+				<nom_cognoms>Trinitat Tarangon</nom_cognoms>
+				<data_naixement>2000-01-20</data_naixement>
+				<sexe>Dona</sexe>
+			</persona>
+			<persona>
+				<nif>53268457J</nif>
+				<nom_cognoms>Carles Carbonell</nom_cognoms>
+				<data_naixement>1990-11-03</data_naixement>
+				<sexe>Home</sexe>
+			</persona>			
+		</habitants>
+	</habitatge>
+
+</cadastre>
