@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+	<xs:element name="cadastre">
+	<xs:complexType>
+		<xs:choice minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="habitatge" type="habit" />
+		</xs:choice>
+	</xs:complexType>
+	</xs:element>	   
+	
+	<xs:complexType name="habit">
+	<xs:all>
+		<xs:element name="localitzacio">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="carrer" type="xs:string" />
+				<xs:element name="numero" type="xs:string" />
+				<xs:element name="planta_porta" type="xs:string" />
+			</xs:all>
+		</xs:complexType>
+		</xs:element>
+		<xs:element name="habitants" type="habitant" />
+	</xs:all>
+	<xs:attribute name="ref" type="xs:integer" />
+	</xs:complexType>
+	
+	<xs:complexType name="habitant">
+	<xs:choice minOccurs="1" maxOccurs="unbounded">
+		<xs:element name="persona">
+		<xs:complexType>
+		<xs:all>
+			<xs:element name="nif" type="xs:string" />
+			<xs:element name="nom_cognoms" type="xs:string" />
+			<xs:element name="data_naixement" type="xs:date" />
+			<xs:element name="sexe" type="xs:string" />
+		</xs:all>
+		</xs:complexType>
+		</xs:element>
+	</xs:choice>
+	</xs:complexType>
+</xs:schema>
