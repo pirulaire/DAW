@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-15" ?>
 
-<cadastre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="act9.xsd">
+<cadastre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="act9.xsd">
 	<habitatge ref="142587">
 		<localitzacio>
 			<carrer>Del morro</carrer>
