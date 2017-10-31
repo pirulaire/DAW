@@ -21,5 +21,16 @@
       </xs:element>
       <xs:element name="habitants" type="habitant" />
     </xs:all>
-  </xs:element>
-                    
+  <xs:attribute name"="ref" type="xs:integer" />
+</xs:complexType>                                               
+                                               
+    <xs:choice>
+      <xs:element name="persona">
+        <xs:all>
+        <xs:element name="persona">
+        </xs:all>  
+        
+      <xs:element>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>
